@@ -7,8 +7,4 @@ public class Tablet extends Computer {
         super(screenSize, memory);
         this.stylusIncluded = stylusIncluded;
     }
-
-    public void installOperatingSystem() {
-        System.out.println("installing OS...");
-    }
 }

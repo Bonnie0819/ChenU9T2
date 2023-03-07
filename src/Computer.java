@@ -12,4 +12,8 @@ public class Computer {
     public int getMemory() {
         return memory;
     }
+    //other methods
+    public void installOperatingSystem() {
+        System.out.println("installing OS...");
+    }
 }

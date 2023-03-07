@@ -8,10 +8,6 @@ public class Laptop extends Computer {
         trackPadCalibrated = false; // default value
     }
 
-    public void installOperatingSystem() {
-        System.out.println("installing OS...");
-    }
-
     public void calibrateTrackpad() {
         if (!trackPadCalibrated) {
             trackPadCalibrated = true;

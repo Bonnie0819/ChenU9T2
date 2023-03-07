@@ -8,10 +8,6 @@ public class Desktop extends Computer {
         this.monitorIncluded = monitorIncluded;
     }
 
-    public void installOperatingSystem() {
-        System.out.println("installing OS...");
-    }
-
     public void replaceTowerCasing() {
         System.out.println("Replaced tower case!");
     }
